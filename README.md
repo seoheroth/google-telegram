@@ -1,5 +1,5 @@
 # บอทเทเลแกรม ใช้ค้นหาอันดับบน Google
-เทเลแกรมบอท แสดงผลการค้นหาบน Ggoogle ทั้งข้อความและรูปภาพ
+เทเลแกรมบอท แสดงผลการค้นหาบน Google ทั้งข้อความและรูปภาพ
 
 ## วิธีใช้
 แนะให้ใช้โฮสต์เว็บไซต์ ของเราเองเนื่องจาก Google ได้กำหนดการค้นหา ** 100 ครั้ง
@@ -20,10 +20,10 @@ PYTHONPATH=src python3 src/app/__init__.py .&
 
 After setting up these you'll have to fill in your API keys in config.json
 
-### Hosting on pythonanywhere
-One easy option to host the bot freely is on PAW. In your web console you should
-set the source directory to src and modify the WSGI config file based on the
-sample given in this repo (misc/pythonanywhere_com_wsgi.py)
+### Hosting on pythonanywhere ใช้ฟรีจำกัดการใช้งาน
+เป็นอีกทางเลือกที่ง่ายต่อการโฮสต์บอทอย่างอิสระคือการใช้ PAW ในเว็บคอนโซลของคุณคุณควร
+ตั้งค่าไดเรกทอรีต้นทางเป็น src และแก้ไขไฟล์กำหนดค่า WSGI ตาม
+ตัวอย่างที่ระบุใน repo นี้ (misc/pythonanywhere_com_wsgi.py)
 
 ## config.json
 This file holds constants like API keys that should be kept outside of the repo.
